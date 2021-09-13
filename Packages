@@ -1,0 +1,53 @@
+Package: lirastuti
+Version: 1.0~b1
+Architecture: iphoneos-arm
+Maintainer: LiRa Team
+Depends: firmware (>= 12.0), cy+cpu.arm64, lirasafemode
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 2.0), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: debs/lirastuti_1.0_b1_iphoneos-arm.deb
+Size: 113618
+MD5sum: be792540be8d1207cd3100634899f3c9
+SHA1: 8572ec351366b26e6ff0f6e72ca845a71ba44630
+SHA256: 9567f643689ec5be851d833d8870ffddf483aa449446caf1a20a69e43f436cb8
+Section: System
+Description: Chất nền dành riên cho LiRa jailbreak 2.0 trở lên
+Author: LiRa Team
+Name: LiRa Stuti
+
+Package: lirasafemode
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LiRa Team
+Depends: firmware (>= 12.0), cy+cpu.arm64
+Filename: debs/lirasafemode_1.0_iphoneos-arm.deb
+Size: 579324
+MD5sum: 535c758aeb3eaeba5bfffc06ad2b4b60
+SHA1: 7d5ebf18576d2c37011fb982c54fa0abde968378
+SHA256: 735a509d985f9a31dfbaeca835b0aec04a4f0a3c4cd828bdf31cff829c3830da
+Section: System
+Description: Safe Mode app
+Author: LiRa Team
+Name: LiRa Safe Mode
+
+Package: mterminal
+Architecture: iphoneos-arm
+Version: 1.6
+Priority: standard
+Section: Utilities
+Maintainer: LiRa Team
+Provides: com.officialscheduler.mterminal (= 1.5-2)
+Depends: coreutils, firmware (>= 11.0), system-cmds, zsh
+Conflicts: com.officialscheduler.mterminal
+Replaces: com.officialscheduler.mterminal
+Filename: debs/mterminal_1.6_iphoneos-arm.deb
+Size: 98176
+MD5sum: ff1fb45c8a93198b0510d4c0534e4ed
+SHA1: e5e156d0be9bf27db961b455ac8db9db1b4a76b9
+SHA256: 06ffaee06074d50bb770d616648d4063be3b18c5d2e5db242de27a2c69238c52
+Description: A MobileTerminal fork
+Tag: purpose::uikit, role::enduser
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
+Author: lordscotland
+Name: MTerminal
