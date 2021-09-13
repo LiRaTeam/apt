@@ -6,7 +6,7 @@ Depends: firmware (>= 12.0), cy+cpu.arm64, lirasafemode
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, libhooker-strap, com.saurik.substrate.safemode
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
 Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 2.0), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
-Filename: debs/lirastuti_1.0_b1_iphoneos-arm.deb
+Filename: debs/lirastuti_1.0~b1_iphoneos-arm.deb
 Size: 113618
 MD5sum: be792540be8d1207cd3100634899f3c9
 SHA1: 8572ec351366b26e6ff0f6e72ca845a71ba44630
