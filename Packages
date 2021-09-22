@@ -16,21 +16,6 @@ Description: Chất nền dành riên cho LiRa jailbreak 2.0 trở lên
 Author: LiRa Team
 Name: LiRa Stuti
 
-Package: lirasafemode
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: LiRa Team
-Depends: firmware (>= 12.0), cy+cpu.arm64
-Filename: debs/lirasafemode_1.0_iphoneos-arm.deb
-Size: 579324
-MD5sum: 535c758aeb3eaeba5bfffc06ad2b4b60
-SHA1: 7d5ebf18576d2c37011fb982c54fa0abde968378
-SHA256: 735a509d985f9a31dfbaeca835b0aec04a4f0a3c4cd828bdf31cff829c3830da
-Section: System
-Description: Safe Mode app
-Author: LiRa Team
-Name: LiRa Safe Mode
-
 Package: lirastuti
 Version: 1.0~b2
 Architecture: iphoneos-arm
@@ -48,6 +33,39 @@ Section: System
 Description: Chất nền dành riên cho LiRa jailbreak 2.0 trở lên
 Author: LiRa Team
 Name: LiRa Stuti
+
+Package: lirastuti
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: LiRa Team
+Depends: firmware (>= 12.0), cy+cpu.arm64, lirasafemode
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, libhooker-strap, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate, libhooker-strap, com.saurik.substrate.safemode
+Provides: com.ex.libsubstitute (= 2.0), org.coolstar.tweakinject (= 1.5.0), mobilesubstrate (= 2.0), libhooker-strap (= 1.1), com.saurik.substrate.safemode (= 2.0)
+Filename: debs/lirastuti_1.1_iphoneos-arm.deb
+Size: 113620
+MD5sum: 2bc0a2f9a4e9823bf184ddd17b51b25d
+SHA1: cc4dbc6b8625f11bac33adf07176eae6cb99c3ef
+SHA256: e9d32f21d191c7a4fee3a0b8774bc4fc3f5e8c6034fbfc9154dcd167a1f1e644
+Section: System
+Description: Chất nền dành riên cho LiRa jailbreak 2.0 trở lên
+Author: LiRa Team
+Name: LiRa Stuti
+
+Package: lirasafemode
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LiRa Team
+Depends: firmware (>= 12.0), cy+cpu.arm64
+Filename: debs/lirasafemode_1.0_iphoneos-arm.deb
+Size: 579324
+MD5sum: 535c758aeb3eaeba5bfffc06ad2b4b60
+SHA1: 7d5ebf18576d2c37011fb982c54fa0abde968378
+SHA256: 735a509d985f9a31dfbaeca835b0aec04a4f0a3c4cd828bdf31cff829c3830da
+Section: System
+Description: Safe Mode app
+Author: LiRa Team
+Name: LiRa Safe Mode
 
 Package: lirasafemode
 Version: 1.1
